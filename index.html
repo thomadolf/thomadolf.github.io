@@ -1,4 +1,116 @@
 <!DOCTYPE html>
+mon-site-github/
+index.html
+produits.html
+style.css
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienvenue sur mon site</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenue sur notre boutique</h1>
+        <nav>
+            <a href="index.html">Accueil</a>
+            <a href="produits.html">Produits</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Découvrez nos produits</h2>
+        <p>Nous avons une large gamme de produits de qualité.</p>
+        <button onclick="location.href='produits.html'">Voir les produits</button>
+    </main>
+    <footer>
+        <p>&copy; 2023 Mon Site Boutique. Tous droits réservés.</p>
+    </footer>
+</body>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produits</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Nos Produits</h1>
+        <nav>
+            <a href="index.html">Accueil</a>
+            <a href="produits.html">Produits</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Liste de produits</h2>
+        <div class="produit">
+            <img src="votre-image1.jpg" alt="Produit 1">
+            <h3>Produit 1</h3>
+            <p>Description du produit 1.</p>
+            <button>Acheter</button>
+        </div>
+        <div class="produit">
+            <img src="votre-image2.jpg" alt="Produit 2">
+            <h3>Produit 2</h3>
+            <p>Description du produit 2.</p>
+            <button>Acheter</button>
+        </div>
+        <!-- Ajoutez plus de produits ici -->
+    </main>
+    <footer>
+        <p>&copy; 2023 Mon Site Boutique. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
+body {
+    background-color: #003300; /* Fond vert foncé */
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+main {
+    text-align: center;
+}
+
+.produit {
+    margin: 20px;
+    display: inline-block;
+    border: 1px solid white;
+    padding: 10px;
+}
+
+.produit img {
+    width: 200px; /* Ajustez la taille de l'image */
+    height: auto;
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #006600; /* Une nuance de vert plus claire pour les boutons */
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #004400; /* Changement de couleur au survol */
+}
+
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
