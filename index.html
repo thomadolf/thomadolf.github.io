@@ -1,13 +1,84 @@
 <!DOCTYPE html>
-thomadolf.github.io/
-index.html
-produits.html
-style.css
-<!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bienvenue sur mon site</title>
-    <link rel="stylesheet" href="style.css">
+    <meta name="EcoSphere" content="width=device-width, initial-scale=1.0">
+    <title>Site Écolo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e8f5e9; /* Fond vert clair */
+            color: #2e7d32; /* Texte vert foncé */
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4caf50; /* Vert */
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 20px;
+            margin: 10px;
+            border-radius: 8px;
+            background-color: #ffffff; /* Fond blanc pour le contenu */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #4caf50; /* Vert */
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
 </head>
+<body>
+    <header>
+        <h1>Bienvenue sur notre site écolo !</h1>
+        <nav>
+            <a href="#about">À Propos</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>À Propos</h2>
+        <p>Notre mission est de sensibiliser aux enjeux environnementaux et de promouvoir des pratiques durables. Nous croyons qu'il est possible de vivre en harmonie avec la nature.</p>
+    </section>
+
+    <section id="services">
+        <h2>Services</h2>
+        <ul>
+            <li>Consultation en développement durable</li>
+            <li>Ateliers de sensibilisation</li>
+            <li>Événements communautaires pour planter des arbres</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Pour plus d'informations, vous pouvez nous contacter à l'adresse suivante : <a href="mailto:info@ecosite.com">info@ecosite.com</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Site Écolo. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
