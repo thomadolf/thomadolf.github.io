@@ -2,95 +2,108 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <meta name="EcoSphere" content="width=device-width, initial-scale=1.0">
-    <title>Site Écolo</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #e8f5e9; /* Fond vert clair */
-            color: #2e7d32; /* Texte vert foncé */
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background-color: #4caf50; /* Vert */
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }
-        nav {
-            margin: 20px 0;
-        }
-        nav a {
-            color: white;
-            margin: 0 15px;
-            text-decoration: none;
-            font-weight: bold;
-        }
-        nav a:hover {
-            text-decoration: underline;
-        }
-        section {
-            padding: 20px;
-            margin: 10px;
-            border-radius: 8px;
-            background-color: #ffffff; /* Fond blanc pour le contenu */
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-        }
-        footer {
-            text-align: center;
-            padding: 10px;
-            background-color: #4caf50; /* Vert */
-            color: white;
-            position: relative;
-            bottom: 0;
-            width: 100%;
-        }
-    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ma Plateforme de Contenu</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Bienvenue sur notre site écolo !</h1>
+        <h1>Bienvenue sur Ma Plateforme</h1>
         <nav>
-            <a href="#about">À Propos</a>
-            <a href="#services">Services</a>
-            <a href="#contact">Contact</a>
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#abonnements">Abonnements</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
         </nav>
     </header>
+    
+    <main>
+        <section id="accueil">
+            <h2>Découvrez du contenu exclusif</h2>
+            <p>Rejoignez notre communauté pour accéder à du contenu unique créé par des créateurs passionnés.</p>
+        </section>
 
-    <section id="about">
-        <h2>À Propos</h2>
-        <p>Notre mission est de sensibiliser aux enjeux environnementaux et de promouvoir des pratiques durables. Nous croyons qu'il est possible de vivre en harmonie avec la nature.</p>
-    </section>
+        <section id="abonnements">
+            <h2>Choisissez votre abonnement</h2>
+            <div class="abonnement">
+                <h3>Abonnement Mensuel</h3>
+                <p>Pour 9,99 €/mois</p>
+                <button>S'inscrire maintenant</button>
+            </div>
+            <div class="abonnement">
+                <h3>Abonnement Annuel</h3>
+                <p>Pour 99,99 €/an</p>
+                <button>S'inscrire maintenant</button>
+            </div>
+        </section>
 
-    <section id="services">
-        <h2>Services</h2>
-        <ul>
-            <li>Consultation en développement durable</li>
-            <li>Ateliers de sensibilisation</li>
-            <li>Événements communautaires pour planter des arbres</li>
-        </ul>
-    </section>
+        <section id="contact">
+            <h2>Contactez-nous</h2>
+            <form>
+                <label for="nom">Nom :</label>
+                <input type="text" id="nom" name="nom" required>
 
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Pour plus d'informations, vous pouvez nous contacter à l'adresse suivante : <a href="mailto:AracheurDeMigrants@gmail.com">AracheurDeMigrants@gmail.com</a></p>
-    </section>
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message :</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
+    </main>
 
     <footer>
-        <p>&copy; 2023 Site Écolo. Tous droits réservés ,
-            Nique les salopes<br>
-            qui parlent en scred<br>
-            Si le savoir est une arme<br>
-            et bah nique ta MERE<br>
-            La rue cest dangereux poto<br>
-            Le monde appartient a ceux<br>
-            qui levent le YAMAHA 4 temps<br>
-            Nique la canine et les Stups<br>
-            QUI sy frotte Effrite<br>
-            Plan WEED bien SERVI<br>
-            8€ LE GRAMME<br>
-            0683647893.</p>
+        <p>&copy; 2023 Ma Plateforme de Contenu</p>
     </footer>
 </body>
 </html>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+.abonnement {
+    border: 1px solid #ccc;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
