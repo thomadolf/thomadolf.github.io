@@ -26,7 +26,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #FFFFFF;
+    color: #9999ff;
     text-decoration: none;
 }
 
@@ -57,7 +57,7 @@ nav ul li a {
 }
 
 .profile-card button {
-    background-color: #d7d7ff;
+    background-color: #ff0000;
     border: none;
     border-radius: 5px;
     color: #FFFFFF;
