@@ -34,7 +34,7 @@ nav ul li a {
    background-image: url('hero-bg.jpg');
    background-size: cover;
    background-position: center;
-   color: white;
+   color: #28a745;
    padding: 5rem 0;
    text-align: center;
 }
