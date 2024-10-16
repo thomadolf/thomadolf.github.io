@@ -1,72 +1,98 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+   font-family: Arial, sans-serif;
+   line-height: 1.6;
+   background-color: #f4f4f4;
+   color: #333;
 }
-
 header {
-    background-color: #ff66b2;
-    color: white;
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+   background-color: #28a745;
+   padding: 1rem 0;
+   text-align: center;
 }
-
+.logo img {
+   max-width: 150px;
+}
 nav ul {
-    list-style-type: none;
+   list-style: none;
+   display: flex;
+   justify-content: center;
 }
-
 nav ul li {
-    display: inline;
-    margin-right: 20px;
+   margin: 0 1rem;
 }
-
 nav ul li a {
-    color: white;
-    text-decoration: none;
+   color: #fff;
+   text-decoration: none;
+   font-size: 1.1rem;
 }
-
 .hero {
-    background-image: url('fleurs-hero.jpg');
-    background-size: cover;
-    color: white;
-    text-align: center;
-    padding: 100px 20px;
+   background-image: url('hero-bg.jpg');
+   background-size: cover;
+   background-position: center;
+   color: white;
+   padding: 5rem 0;
+   text-align: center;
 }
-
-.hero .btn {
-    background-color: white;
-    color: #ff66b2;
-    padding: 10px 20px;
-    text-decoration: none;
+.hero h1 {
+   font-size: 3rem;
+   margin-bottom: 1rem;
 }
-
-.produits {
-    padding: 20px;
+.hero p {
+   font-size: 1.2rem;
+   margin-bottom: 2rem;
 }
-
-.produit {
-    display: inline-block;
-    width: 30%;
-    text-align: center;
-    margin: 10px;
+.cta-button {
+   background-color: #28a745;
+   color: white;
+   padding: 0.8rem 1.5rem;
+   text-decoration: none;
+   border-radius: 5px;
+   font-size: 1rem;
 }
-
-.produit img {
-    max-width: 100%;
+.cta-button:hover {
+   background-color: #218838;
 }
-
-.btn {
-    background-color: #ff66b2;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
+.features {
+   display: flex;
+   justify-content: space-around;
+   margin: 3rem 0;
+   padding: 0 2rem;
 }
-
+.feature {
+   text-align: center;
+   flex: 1;
+   margin: 0 1rem;
+}
+.feature img {
+   max-width: 100%;
+   border-radius: 10px;
+   margin-bottom: 1rem;
+}
 footer {
-    text-align: center;
-    padding: 20px;
-    background-color: #f1f1f1;
+   background-color: #28a745;
+   color: white;
+   text-align: center;
+   padding: 1rem 0;
+   margin-top: 2rem;
+}
+/* Responsive Design */
+@media (max-width: 768px) {
+   .features {
+       flex-direction: column;
+       align-items: center;
+   }
+   .feature {
+       margin-bottom: 2rem;
+   }
+   .hero h1 {
+       font-size: 2.5rem;
+   }
+   .hero p {
+       font-size: 1rem;
+   }
 }
