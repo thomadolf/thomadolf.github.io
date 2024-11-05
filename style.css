@@ -6,7 +6,9 @@ header{
   border: solid 2px red;
   min-height: 200px;
 }
-
+.banier_img{
+  width: 100%
+}
 #zone_rch{
   border: solid 2px green;
    min-height: 80px;
