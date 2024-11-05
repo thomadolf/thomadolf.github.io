@@ -3,11 +3,12 @@ header{
   border: solid 2px #345;
 }
 #banier{
-  border: solid 2px red;
+  //border: solid 2px red;
   min-height: 200px;
 }
 .banier_img{
   width: 100%
+  height: 250px;
 }
 #zone_rch{
   border: solid 2px green;
