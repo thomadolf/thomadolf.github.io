@@ -1,9 +1,9 @@
 body{}
 header{
-  border: solid 2px #345;
+  border: solid 1px #345;
 }
 #banier{
-  //border: solid 2px red;
+  //border: solid 1px red;
   min-height: 200px;
 }
 .banier_img{
@@ -11,23 +11,23 @@ header{
   height: 250px;
 }
 #zone_rch{
-  border: solid 2px green;
+  border: solid 1px green;
    min-height: 80px;
 }
 
 #cont{
-  border: solid 2px #9AC;
+  border: solid 1px #9AC;
    //min-height: 350px;
 }
 
 #resultat{
-  border: solid 2px #5F2;
+  border: solid 1px #5F2;
    min-height: 350px;
   width: 50%;
   margin: auto;
 }
 
 footer{
-  border: solid 2px red;
+  border: solid 1px red;
    min-height: 30px;
 }
