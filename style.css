@@ -199,16 +199,6 @@
   color: white;
 }
 
-.container {
-   display: flex;
-    margin-left: -20px;
-  justify-content: space-between;
-}
-.container img src{
-  width: 15px;
-  height: 15px;
-}
-
 
 
 
