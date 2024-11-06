@@ -201,12 +201,12 @@
 
 .container {
    display: flex;
-   align-items: center;
+    margin-left: -20px;
   justify-content: space-between;
 }
 .container img{
-  width-max: 15px;
-  height-max: 15px;
+  width: 10px;
+  height: 10px;
 }
 
 
