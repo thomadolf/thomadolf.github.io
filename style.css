@@ -139,7 +139,7 @@
 
 .btn-acheter::after{
     content: "";
-    background: none;
+    background: #0033cc;
     position: absolute;
     z-index: -1;
     left: -15%;
