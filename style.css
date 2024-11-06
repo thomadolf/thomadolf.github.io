@@ -207,9 +207,10 @@
     background-color: none;
 }
 .image-container img{
-  width: 40px;
-  height: 40px;
-  horizontal-align: top;
+  width-max: 40px;
+  height-max: 40px;
+   align-item: center;
+  horizontal-align: center;
   background-color: none;
 }
 
