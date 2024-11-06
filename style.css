@@ -79,7 +79,7 @@
         .title .lane {
           color: #4d79ff;
         } 
-        .image imga {
+        .image img {
           width: 320px;
           height: auto;
           margin-top: 20px; 
@@ -113,7 +113,7 @@
             text-align: center;
         }
 
-        .article imga {
+        .article img {
             max-width: 90%;
             height: auto;
             align-items: center;
@@ -200,13 +200,13 @@
   color: white;
 }
 
-.image-container{
+.container{
   display: inline-block;
   justify-content: space-between;
   align-item: center;
     background-color: none;
 }
-.image-container img{
+.container img{
   width-max: 40px;
   height-max: 40px;
    align-item: center;
