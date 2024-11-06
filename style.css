@@ -81,7 +81,7 @@
           color: #4d79ff;
         } 
         .image img {
-          width: 320px;
+          width: auto;
           height: auto;
           margin-top: 20px; 
         }
@@ -116,8 +116,8 @@
         }
 
         .article img {
-            width: 100px;
-            height: 100px;
+            width: 200px;
+            height: 200px;
             align-items: center;
         }
 .btn-acheter{
