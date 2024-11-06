@@ -200,11 +200,13 @@
 }
 
 .image-container{
-  display: felx;
+  display: inline-block;
   justify-content: space-between;
+  align-item: center;
 }
-.image-container{
-  width: 30%;
+.image-container img{
+  width: 20%;
+  horizontal-align: top;
 }
 
 
