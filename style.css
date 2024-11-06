@@ -212,8 +212,7 @@
 .container img{
   width-max: 40px;
   height-max: 40px;
-   align-item: center;
-  horizontal-align: center;
+   align-item: left;
   background-color: none;
 }
 
