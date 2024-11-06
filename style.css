@@ -107,10 +107,11 @@
         }
 
         .article {
-            border: 1px solid black;
             margin: 20px 0;
             padding: 20px;
             text-align: center;
+            width-max: 40px;
+            height-max: 40px;
         }
 
         .article img {
