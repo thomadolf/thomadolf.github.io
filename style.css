@@ -203,10 +203,12 @@
   display: inline-block;
   justify-content: space-between;
   align-item: center;
+    background-color: none;
 }
 .image-container img{
   width: 40%;
   horizontal-align: top;
+    background-color: none;
 }
 
 
