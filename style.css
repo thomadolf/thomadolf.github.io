@@ -206,9 +206,10 @@
     background-color: none;
 }
 .image-container img{
-  width: 25%;
+  width: auto;
+  height: auto;
   horizontal-align: top;
-    background-color: none;
+  background-color: none;
 }
 
 
