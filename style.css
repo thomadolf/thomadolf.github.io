@@ -203,6 +203,8 @@
 
 .container{
   display: inline-block;
+    width: 100px;
+    height: 50px;
   justify-content: space-between;
   align-item: center;
     background-color: none;
