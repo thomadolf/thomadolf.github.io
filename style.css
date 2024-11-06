@@ -133,7 +133,7 @@
 }
 
 .btn-acheter:hover{
-    background-color: green;
+    background-color: #EE82EE;
 }
 
 .btn-acheter::after{
