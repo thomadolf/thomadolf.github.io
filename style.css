@@ -52,6 +52,8 @@
           font-size: 1.2rem;
           max-width: 600px; 
           margin-bottom: 20px;
+          font-family: Arial Black, sans-serif;
+          font-weight: bold;
         } 
         .quote .author { 
           display: block;
