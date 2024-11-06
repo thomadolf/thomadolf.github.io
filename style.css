@@ -120,7 +120,7 @@
             font-weight: bold;
         }
 .btn-acheter{
-    background-color: none;
+    background-color: #0033cc;
     color: white;
     border: none;
   border-radius: 15px;
@@ -139,7 +139,7 @@
 
 .btn-acheter::after{
     content: "";
-    background: red;
+    background: none;
     position: absolute;
     z-index: -1;
     left: -15%;
