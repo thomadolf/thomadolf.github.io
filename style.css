@@ -80,8 +80,8 @@
           color: #4d79ff;
         } 
         .image img {
-          width: 20px;
-          height: 20px;
+          width: 320px;
+          height: auto;
           margin-top: 20px; 
         }
 
@@ -115,9 +115,9 @@
         }
 
         .article img {
-            width: 50px;
-            height: 50px;
-            align-items: center;
+            width: 20px;
+            height: 20px;
+            align-items: left;
             font-family: Arial Black, sans-serif;
             font-weight: bold;
         }
@@ -203,10 +203,10 @@
 
 .container{
   display: inline-block;
-    width: 100px;
+    width: 50px;
     height: 50px;
   justify-content: space-between;
-  align-item: center;
+  align-item: left;
     background-color: none;
 }
 .container img{
