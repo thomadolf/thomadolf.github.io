@@ -1,70 +1,292 @@
-<html lang="fr">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>Portfolio - Bryan Lane</title> 
-    <link rel="stylesheet" href="style.css">  
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>   
-  </head> 
-  <body>
-    <header>
-      <div><img class="logo" src="LOGO.png"></div> 
-      <nav>
-         <a class="btn-hautdepage">Acceuil</a>
-        <a class="btn-hautdepage">Flowers</a>
-        <a class="btn-hautdepage">Archive</a>
-        <a class="btn-hautdepage">Personal</a>
-      </nav> 
-      <div class="social">
-      <a href="#"><i class='bx bx-cart'></i></a>
-      <a href="#"><i class='bx bx-user' ></i></a>
-      </div>
-        </header>
-    <main>
-      <div class="quote">
-        <p>"Transform your space into a green oasis"</p>
-     
-        <hr width="40px">
-    </div>
-    <div class="title"> 
-      <h1>The Happy <br> Environement</h1> 
-      <h1 class="lane">Esteban Thomas</h1>
-    </div> 
-    <div>
-      <img id="plante" src="flower.png" alt="Abstract 3D Shape">
-    </div>
-            <div class="quote">
-      <span class="author">Made in France</span>
-      </div>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-    
-          <div class="article">
-                <img src="plt4.png" alt="Article 1">
-            <br>
-                <h3.3>Malizola</h3.3>
-                <p>Elegant and luxuriou</p>
-            <br>
-            <button class="btn-acheter">Buy</button>
-</div>
-             <div class="article">
-                <img src="plt3.png" alt="Article 2">
-               <br>
-                <h3.2>Gandja</h3.2>
-                <p>Élégance and Versatility</p>
-               <br>
-               <button class="btn-acheter">Buy</button>
-</div>
-                <div class="article">
-                <img src="plt2.png" alt="Article 3">
-                  <br>
-                <h3.1>Estegro</h3.1>
-                <p>Élégance Sportive & Polyvalent </p>
-                  <br>
-                  <button class="btn-acheter">Buy</button>
-      </div>
-    </main>
-  </body>
-</html>
+
+    *  { 
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        } 
+        body { 
+          height: auto;
+          font-family: Arial, sans-serif;
+          background-color: #0033cc;
+          color: with;
+          display: flex;
+          flex-direction: column;
+          align-items:center;
+          justify-content: center;
+          
+          position: relative;
+        } 
+        header { 
+          width: 100%;
+          max-width: 1200px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          padding: 20px;
+        } 
+        .logo {
+          width: 160px;
+          height: 150px;
+          
+         
+          border-radius: 60%;
+        } 
+        nav a {
+          margin: 0 15px;
+          color: white;
+          text-decoration: none;
+          font-weight: 600;
+        } 
+        .social a img {
+          width: 20px;
+          height: 20px;
+          margin-left: 10px;
+        } 
+        main {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+         
+          padding: 40px 20px;
+        } 
+        .quote { 
+          font-size: 1.2rem;
+          max-width: 600px; 
+          margin-bottom: 20px;
+          font-family: Arial Black, sans-serif;
+          font-weight: bold;
+           color: #4d79ff;
+        } 
+        .quote .author { 
+          display: block;
+          margin-top: 10px;
+          font-size: 0.9rem;
+        } 
+#q { color: ##4d79ff; }
+
+       
+        .title h1 {
+          font-size: 10rem;
+          line-height: 1;
+          margin-left: 0;
+           color: #99ccff;
+          
+        } 
+
+        .title {
+            margin-top: 20vh;
+        }
+
+        .title .lane {
+          color: #4d79ff;
+        } 
+        .image img {
+          width: 320px;
+          height: auto;
+          margin-top: 20px; 
+        }
+
+        #plante {
+            height: 700px;
+            width: 700px;
+            display: flex;
+            position: absolute;
+            top: 25vh;
+            left: 60vw;
+            z-index: -1;
+
+        }
+
+        .bx-cart, .bx-user {
+            color: azure;
+            font-size: 2em;
+
+        }
+
+        .bx-cart {
+            padding-right: 25px;
+        }
+
+        .article {
+            margin: 20px;
+            padding: 20px;
+            text-align: center;
+            width-max: 40px;
+            height-max: 40px;
+        }
+
+        .article img {
+            width: 50px;
+            height: 50px;
+            align-items: center;
+        }
+.btn-acheter{
+    background-color: #99ccff;
+    color: white;
+    border: none;
+  border-radius: 15px;
+  size: 20px;
+  font-weight: bold;
+    padding: 10px 15px;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.btn-acheter:hover{
+    background-color: #EE82EE;
+}
+
+.btn-acheter::after{
+    content: "";
+    background: #0033cc;
+    position: absolute;
+    z-index: -1;
+    left: -15%;
+    border-right-style: -15%;
+    top: 0;
+    bottom: 0;
+    transform: skewX(-45deg) scale(0,1);
+}
+
+.btn-acheter:active{
+  transform: translate(3px);
+  box-shadow: 0 10px 20px rgb(255, 255, 255, 0.60);
+  color: white;
+}
+.btn-hautdepage{
+    background-color: none;
+    color: white;
+    border: none;
+  border-radius: 15px;
+  font-size : 20px;
+  font-weight: bold;
+    padding: 10px 15px;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.btn-hautdepage:hover{
+    background-color: #EE82EE;
+}
+
+.btn-hautdepage::after{
+    content: "";
+    background: red;
+    position: absolute;
+    z-index: -1;
+    left: -15%;
+    border-right-style: -15%;
+    top: 0;
+    bottom: 0;
+    transform: skewX(-50deg) scale(0,1);
+}
+
+.btn-hautdepage:active{
+  transform: translate(3px);
+  box-shadow: 0 10px 20px rgb(255, 255, 255, 0.60);
+  color: white;
+}
+
+.agd:hover{
+    background-color: #EE82EE;
+}
+.agd_image:active{
+  transform: translate(3px);
+  box-shadow: 0 10px 20px rgb(255, 255, 255, 0.60);
+  color: white;
+}
+
+.article {
+   color: #99ccff;
+   text-align: center;
+}
+
+h3.3, 3.2, 3.1 {
+   color: #EE82EE;
+   text-align: center;
+    position: absolute;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+
+  ::-webkit-scrollbar-track {
+    background: #ffffff; 
+  }
+  
+  
+  ::-webkit-scrollbar-thumb {
+    background: linear-gradient(45deg, #ff0000, #ffa500, #ffff00, #008000, #0000ff, #4b0082, #ee82ee);
+    border-radius: 20px;
+    border: 3px solid #ffffff; 
+  }
+  
+  ::-webkit-scrollbar-hover {
+    background: linear-gradient(45deg, #ff69b4, #ff4500, #32cd32, #1e90ff, #9370db, #ff1493, #00ced1);
+  }
+  
