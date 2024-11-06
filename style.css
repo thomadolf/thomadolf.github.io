@@ -199,14 +199,12 @@
   color: white;
 }
 
-.container{
+.container {
   justify-content: space-between;
 }
 .container img{
-  width-max: 40px;
-  height-max: 40px;
-   align-item: left;
-  background-color: none;
+  width-max: 100px;
+  height-max: 100px;
 }
 
 
