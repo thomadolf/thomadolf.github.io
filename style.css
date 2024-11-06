@@ -203,13 +203,25 @@
    display: flex;
     margin-left: -20px;
   justify-content: space-between;
-  width: 40px;
-  height: 40px;
 }
 .container img{
   width: 10px;
   height: 10px;
 }
+
+#Image 1{
+   width: 40px;
+  height: 40px;
+}   
+#Image 2{
+   width: 40px;
+  height: 40px;
+}  
+#Image 3{
+   width: 40px;
+  height: 40px;
+}
+   
 
 
 
