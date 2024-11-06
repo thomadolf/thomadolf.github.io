@@ -204,24 +204,11 @@
     margin-left: -20px;
   justify-content: space-between;
 }
-.container img{
-  width: 10px;
-  height: 10px;
+.container img src{
+  width: 30px;
+  height: 30px;
 }
 
-#Image1{
-   width: 40px;
-  height: 40px;
-}   
-#Image2{
-   width: 40px;
-  height: 40px;
-}  
-#Image3{
-   width: 40px;
-  height: 40px;
-}
-   
 
 
 
