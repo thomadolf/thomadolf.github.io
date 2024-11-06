@@ -203,6 +203,8 @@
    display: flex;
     margin-left: -20px;
   justify-content: space-between;
+  width: 10px;
+  height: 10px;
 }
 .container img{
   width: 10px;
