@@ -125,6 +125,7 @@
     z-index: 1;
     overflow: hidden;
     text-align: center;
+  margin-left: 35px;
 }
 
 .btn-acheter:hover{
@@ -204,10 +205,12 @@
 
 h3, h4, h5{
    color: #EE82EE;
+  margin-left: -30px;
    text-align: center;
     position: absolut;
   font-family: Arial Black, sans-serif;
   font-size: 30px
+    
 }
 .container img{
     display: wrap; 
@@ -239,6 +242,7 @@ p {
    text-align: center;
   font-family:'Roboto', sans-serif;
   font-size: 20px;
+   margin-left: -30px;
 }
 
 
