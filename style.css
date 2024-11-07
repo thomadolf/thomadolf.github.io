@@ -205,7 +205,7 @@ h3.3, 3.2, 3.1 {
     position: absolut;
 }
 .container {
-    display: flex;
+    display: wrap; 
     justify-content: center; /* Centre l'image horizontalement */
     align-items: center;     /* Centre l'image verticalement */
     height: 50vh;           /* Hauteur de l'écran si nécessaire */
