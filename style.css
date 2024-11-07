@@ -237,8 +237,8 @@ h3, h4, h5{
     height: 50%; /* Garde les proportions de l'image */
 }
 p {
+   color:#99ccff;
     text-transform: ; /* Change tout le texte en majuscules */
-   color: #99ccff;
    text-align: center;
   font-family:'Roboto', sans-serif;
   font-size: 20px;
