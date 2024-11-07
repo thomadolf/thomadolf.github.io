@@ -124,22 +124,25 @@
     position: relative;
     z-index: 1;
     overflow: hidden;
+    text-align: center;
 }
 
 .btn-acheter:hover{
     background-color: #EE82EE;
+    text-align: center;
 }
 
 .btn-acheter::after{
     content: "";
     background: #0033cc;
-    position: absolute;
+    position: absolut;
     z-index: -1;
     left: -15%;
     border-right-style: -15%;
     top: 0;
     bottom: 0;
     transform: skewX(-45deg) scale(0,1);
+    text-align: center;
 }
 
 .btn-acheter:active{
@@ -156,7 +159,7 @@
   font-weight: bold;
     padding: 10px 15px;
     cursor: pointer;
-    position: relative;
+    position: absolut;
     z-index: 1;
     overflow: hidden;
 }
@@ -199,32 +202,46 @@
    height: 100px;
 }
 
-h3.3, h3.2, h3.1 {
+h3, h4, h5{
    color: #EE82EE;
    text-align: center;
     position: absolut;
+  font-family: Arial Black, sans-serif;
+  font-size: 30px
 }
 .container img{
     display: wrap; 
     justify-content: center; /* Centre l'image horizontalement */
     align-items: center;     /* Centre l'image verticalement */
     height: 50vh;           /* Hauteur de l'écran si nécessaire */
-      width: 100%
-       height: auto;
+      width: 100px;
+       height: 100px;
+}
+.container2 img{
+    display: wrap; 
+    justify-content: center; /* Centre l'image horizontalement */
+    align-items: center;     /* Centre l'image verticalement */
+    height: 100vh;           /* Hauteur de l'écran si nécessaire */
+   width: 40%; /* 50% de la largeur de son conteneur */
+   height: 50%; /* Garde les proportions de l'image */
+}
+.container3 img{
+    display: wrap; 
+    justify-content: center; /* Centre l'image horizontalement */
+    align-items: center;     /* Centre l'image verticalement */
+    height: 100vh;           /* Hauteur de l'écran si nécessaire */
+     width: 40%; /* 50% de la largeur de son conteneur */
+    height: 50%; /* Garde les proportions de l'image */
+}
+p {
+    text-transform: ; /* Change tout le texte en majuscules */
+   color: #99ccff;
+   text-align: center;
+  font-family:'Roboto', sans-serif;
+  font-size: 20px;
 }
 
-.container {
-    display: flex;
-    width: 200px; /* Taille du conteneur */
-    height: 200px; /* Taille du conteneur */
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-}
-#p {
-   color: ##4d79ff;
-   text-align: center;
-}
+
 
 
 
