@@ -217,8 +217,8 @@ h3, h4, h5{
     justify-content: center; /* Centre l'image horizontalement */
     align-items: center;     /* Centre l'image verticalement */
     height: 50vh;           /* Hauteur de l'écran si nécessaire */
-      width: 100px;
-       height: 100px;
+      width: 60%;
+       height: 70%;
    margin-left: 10px;
 }
 .container2 img{
@@ -226,8 +226,8 @@ h3, h4, h5{
     justify-content: center; /* Centre l'image horizontalement */
     align-items: center;     /* Centre l'image verticalement */
     height: 100vh;           /* Hauteur de l'écran si nécessaire */
-   width: 40%; /* 50% de la largeur de son conteneur */
-   height: 50%; /* Garde les proportions de l'image */
+   width: 60%; /* 50% de la largeur de son conteneur */
+   height: 70%; /* Garde les proportions de l'image */
    margin-left: 10px;
 }
 .container3 img{
@@ -235,8 +235,8 @@ h3, h4, h5{
     justify-content: center; /* Centre l'image horizontalement */
     align-items: center;     /* Centre l'image verticalement */
     height: 100vh;           /* Hauteur de l'écran si nécessaire */
-     width: 40%; /* 50% de la largeur de son conteneur */
-    height: 50%; /* Garde les proportions de l'image */
+     width: 60%; /* 50% de la largeur de son conteneur */
+    height: 70%; /* Garde les proportions de l'image */
    margin-left: 10px;
 }
 p {
