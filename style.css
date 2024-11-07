@@ -209,7 +209,6 @@ h3.3, h3.2, h3.1 {
     justify-content: center; /* Centre l'image horizontalement */
     align-items: center;     /* Centre l'image verticalement */
     height: 50vh;           /* Hauteur de l'écran si nécessaire */
-      text-align: center;
       width: 100%
        height: auto;
 }
@@ -221,6 +220,10 @@ h3.3, h3.2, h3.1 {
     justify-content: center;
     align-items: center;
     overflow: hidden;
+}
+#p {
+   color: ##4d79ff;
+   text-align: center;
 }
 
 
