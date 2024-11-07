@@ -208,7 +208,7 @@ h3.3, 3.2, 3.1 {
     display: flex;
     justify-content: center; /* Centre l'image horizontalement */
     align-items: center;     /* Centre l'image verticalement */
-    height: 40vh;           /* Hauteur de l'écran si nécessaire */
+    height: 50vh;           /* Hauteur de l'écran si nécessaire */
 }
 
 
