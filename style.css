@@ -211,6 +211,12 @@ h3.3, 3.2, 3.1 {
    height: 100px;
 }
 
+.container {
+    display: flex;
+    justify-content: center; /* Centre l'image horizontalement */
+    align-items: center;     /* Centre l'image verticalement */
+    height: 100vh;           /* Hauteur de l'écran si nécessaire */
+}
 
 
 
