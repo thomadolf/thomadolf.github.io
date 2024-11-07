@@ -210,29 +210,18 @@ h3.3, h3.2, h3.1 {
     align-items: center;     /* Centre l'image verticalement */
     height: 50vh;           /* Hauteur de l'écran si nécessaire */
       text-align: center;
-      width: 100px;
-       height: 100px;
-}
-.container2 img{
-    display: wrap; 
-    justify-content: center; /* Centre l'image horizontalement */
-    align-items: center;     /* Centre l'image verticalement */
-    height: 100vh;           /* Hauteur de l'écran si nécessaire */
-      text-align: center;
-   width: 40%; /* 50% de la largeur de son conteneur */
-   height: 50%; /* Garde les proportions de l'image */
-}
-.container3 img{
-    display: wrap; 
-    justify-content: center; /* Centre l'image horizontalement */
-    align-items: center;     /* Centre l'image verticalement */
-    height: 100vh;           /* Hauteur de l'écran si nécessaire */
-      text-align: center;
-     width: 40%; /* 50% de la largeur de son conteneur */
-    height: 50%; /* Garde les proportions de l'image */
+      width: 100%
+       height: auto;
 }
 
-
+.container {
+    display: flex;
+    width: 200px; /* Taille du conteneur */
+    height: 200px; /* Taille du conteneur */
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
 
 
 
