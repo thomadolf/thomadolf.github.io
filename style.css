@@ -213,7 +213,24 @@ h3.3, 3.2, 3.1 {
       width: 100px;
        height: 100px;
 }
-
+.container2{
+    display: wrap; 
+    justify-content: center; /* Centre l'image horizontalement */
+    align-items: center;     /* Centre l'image verticalement */
+    height: 15vh;           /* Hauteur de l'écran si nécessaire */
+      text-align: center;
+      width: 70px;
+       height: 70px;
+}
+.container3 {
+    display: wrap; 
+    justify-content: center; /* Centre l'image horizontalement */
+    align-items: center;     /* Centre l'image verticalement */
+    height: 15vh;           /* Hauteur de l'écran si nécessaire */
+      text-align: center;
+      width: 70px;
+       height: 70px;
+}
 
 
 
