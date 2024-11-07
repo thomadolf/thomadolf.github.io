@@ -204,13 +204,6 @@ h3.3, 3.2, 3.1 {
    text-align: center;
     position: absolut;
 }
-.article &{ 
-   display: block;
-    margin: auto;
-   width: 150px;
-   height: 100px;
-}
-
 .container {
     display: flex;
     justify-content: center; /* Centre l'image horizontalement */
