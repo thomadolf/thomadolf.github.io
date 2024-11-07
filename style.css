@@ -217,7 +217,7 @@ h3.3, 3.2, 3.1 {
     display: wrap; 
     justify-content: center; /* Centre l'image horizontalement */
     align-items: center;     /* Centre l'image verticalement */
-    height: 5vh;           /* Hauteur de l'écran si nécessaire */
+    height: 100vh;           /* Hauteur de l'écran si nécessaire */
       text-align: center;
    width: 20%; /* 50% de la largeur de son conteneur */
    height: auto; /* Garde les proportions de l'image */
@@ -226,7 +226,7 @@ h3.3, 3.2, 3.1 {
     display: wrap; 
     justify-content: center; /* Centre l'image horizontalement */
     align-items: center;     /* Centre l'image verticalement */
-    height: 5vh;           /* Hauteur de l'écran si nécessaire */
+    height: 100vh;           /* Hauteur de l'écran si nécessaire */
       text-align: center;
      width: 20%; /* 50% de la largeur de son conteneur */
     height: auto; /* Garde les proportions de l'image */
