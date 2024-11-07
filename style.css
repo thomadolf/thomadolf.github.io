@@ -239,7 +239,6 @@ h3, h4, h5{
 p {
    color:#99ccff;
    text-align: center;
-    text-transform: ; /* Change tout le texte en majuscules */
   font-family:'Roboto', sans-serif;
   font-size: 20px;
    margin-left: -30px;
