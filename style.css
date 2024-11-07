@@ -107,14 +107,6 @@
             padding-right: 25px;
         }
 
-        .article {
-            margin: 60px;
-            padding: 60px;
-            text-align: center;
-            width-max: 100px;
-            height-max: 100px;
-        }
-
         .article img {
             width: 200px;
             height: 200px;
@@ -203,6 +195,8 @@
 .article {
    color: #99ccff;
    text-align: center;
+   width: 100px;
+   height: 100px;
 }
 
 h3.3, 3.2, 3.1 {
