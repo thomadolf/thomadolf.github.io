@@ -216,28 +216,28 @@ h3, h4, h5{
     display: wrap; 
     justify-content: center; /* Centre l'image horizontalement */
     align-items: center;     /* Centre l'image verticalement */
-    height: 50vh;           /* Hauteur de l'écran si nécessaire */
-      width: 60%;
+    height: 80;           /* Hauteur de l'écran si nécessaire */
+      width: 80%;
        height: 70%;
-   margin-left: 10px;
+   margin-left: 5px;
 }
 .container2 img{
     display: wrap; 
     justify-content: center; /* Centre l'image horizontalement */
     align-items: center;     /* Centre l'image verticalement */
     height: 100vh;           /* Hauteur de l'écran si nécessaire */
-   width: 60%; /* 50% de la largeur de son conteneur */
-   height: 70%; /* Garde les proportions de l'image */
-   margin-left: 10px;
+   width: 80%; /* 50% de la largeur de son conteneur */
+   height: 80%; /* Garde les proportions de l'image */
+   margin-left: 5px;
 }
 .container3 img{
     display: wrap; 
     justify-content: center; /* Centre l'image horizontalement */
     align-items: center;     /* Centre l'image verticalement */
     height: 100vh;           /* Hauteur de l'écran si nécessaire */
-     width: 60%; /* 50% de la largeur de son conteneur */
-    height: 70%; /* Garde les proportions de l'image */
-   margin-left: 10px;
+     width: 80%; /* 50% de la largeur de son conteneur */
+    height: 80%; /* Garde les proportions de l'image */
+   margin-left: 5px;
 }
 p {
    color:#99ccff;
