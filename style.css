@@ -121,7 +121,7 @@
   font-weight: bold;
     padding: 10px 15px;
     cursor: pointer;
-    position: relative;
+    position: fixed;
     z-index: 1;
     overflow: hidden;
     text-align: center;
