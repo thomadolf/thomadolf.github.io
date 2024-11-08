@@ -125,12 +125,11 @@
     z-index: 1;
     overflow: hidden;
     text-align: center;
-  margin-left: -60px;
+  margin-left: 35px;
 }
 
 .btn-acheter:hover{
     background-color: #EE82EE;
-    text-align: center;
 }
 
 .btn-acheter::after{
@@ -143,7 +142,6 @@
     top: 0;
     bottom: 0;
     transform: skewX(-45deg) scale(0,1);
-    text-align: center;
 }
 
 .btn-acheter:active{
