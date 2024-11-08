@@ -112,6 +112,7 @@
             height: 200px;
             align-items: center;
         }
+
 .btn-acheter{
     background-color: #99ccff;
     color: white;
@@ -121,7 +122,7 @@
   font-weight: bold;
     padding: 10px 15px;
     cursor: pointer;
-    position: fixed;
+    position: absolut;
     z-index: 1;
     overflow: hidden;
     text-align: center;
